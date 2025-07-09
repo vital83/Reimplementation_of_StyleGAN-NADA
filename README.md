@@ -24,6 +24,15 @@ StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators (re-implementat
 At the moment there is only one possible option to run the work [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DCwbuYemn5Yc-3_5RQ7U3vpd3SbbDI78?usp=sharing)
 You can just click `Runtime > Run all`, no other actions required.
 
+## Result examples
+* 01 Anime painting from face
+![Image](https://github.com/vital83/Reimplementation_of_StyleGAN-NADA/blob/main/01_anime_painting_from_face.png)
+
+* 02 Shrek from face
+![Image](https://github.com/vital83/Reimplementation_of_StyleGAN-NADA/blob/main/02_100_shrek_from_face.png)
+
+
+
 ## Report
 
 [Here you can find the work report](REPORT.md)
