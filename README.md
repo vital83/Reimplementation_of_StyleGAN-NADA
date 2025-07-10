@@ -31,6 +31,13 @@ You can just click `Runtime > Run all`, no other actions required.
 * 02 Shrek from face
 ![Image](https://github.com/vital83/Reimplementation_of_StyleGAN-NADA/blob/main/02_100_shrek_from_face.png)
 
+* 03 Pixar cartoon from face
+![Image](https://github.com/vital83/Reimplementation_of_StyleGAN-NADA/blob/main/03_300_pixar_from_face.png)
+
+* 04 Sketch from face
+![Image](https://github.com/vital83/Reimplementation_of_StyleGAN-NADA/blob/main/04_10l_300s_sketch_from_face.png)
+
+[Model weights (saved checkpoints)](https://drive.google.com/drive/folders/1a27Qx_Te2DQ95gjUhUEUW6K6VmFvcc4F?usp=sharing)
 
 
 ## Report
