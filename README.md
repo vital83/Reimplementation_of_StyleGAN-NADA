@@ -7,7 +7,7 @@ In this project, the main goal is to reimplement the StyleGAN-NADA paper (https:
 * The key objective is to learn how to generate images from a specific domain based on a given text prompt.
 > This is an educational research project aimed at studying an actual scientific paper, reproducing its results, and analyzing its limitations.
 
-**StyleGAN-NADA** — StyleGAN-NADA is a method for adapting a GAN (in example, [Style GAN 2 in TensorFlow](https://github.com/NVlabs/stylegan2), [Style GAN 2 in PyTorch](https://github.com/rosinality/stylegan2-pytorch)) to new domains without the need for annotated data. 
+**StyleGAN-NADA** is a method for adapting a GAN (in example, [Style GAN 2 in TensorFlow](https://github.com/NVlabs/stylegan2), [Style GAN 2 in PyTorch](https://github.com/rosinality/stylegan2-pytorch)) to new domains without the need for annotated data. 
 
 The core idea is to keep one generator instance fixed while training the other, ensuring that the 'direction' between generated images in the latent space aligns with a given text-guided direction using the [CLIP](https://github.com/openai/CLIP).
 
