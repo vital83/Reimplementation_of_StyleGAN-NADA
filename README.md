@@ -1,24 +1,26 @@
 # Reimplementation_of_StyleGAN-NADA
 StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators (re-implementation)
-* Реимплементация [статьи](https://arxiv.org/abs/2108.00946) - "StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators".
-* Ссылка на [официальную имплементацию](https://github.com/rinongal/StyleGAN-nada).
-## Описание задачи
-В данном проекте основной задачей является реимплементация статьи StyleGAN-NADA (https://stylegan-nada.github.io/) - задача domain адаптации предобученного гана.
-* Основная задача - научиться генерировать картинки из определенного домена на основе предложенного текстового промпта. 
-> Это учебный исследовательский проект, направленный на изучение настоящей научной статьи, воспроизведение результатов и анализ недостатков.
+* Reimplementattion of [paper](https://arxiv.org/abs/2108.00946) - "StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators".
+* Link to [official implementation](https://github.com/rinongal/StyleGAN-nada).
+## Task description
+In this project, the main goal is to reimplement the StyleGAN-NADA paper (https://stylegan-nada.github.io/), which focuses on domain adaptation of GAN.
+* The key objective is to learn how to generate images from a specific domain based on a given text prompt.
+> This is an educational research project aimed at studying an actual scientific paper, reproducing its results, and analyzing its limitations.
 
-**StyleGAN-NADA** — это метод адаптации GAN (например, [Style GAN 2 in TensorFlow](https://github.com/NVlabs/stylegan2), [Style GAN 2 in PyTorch](https://github.com/rosinality/stylegan2-pytorch)) к новым доменам без необходимости аннотированных данных. 
+**StyleGAN-NADA** — StyleGAN-NADA is a method for adapting a GAN (in example, [Style GAN 2 in TensorFlow](https://github.com/NVlabs/stylegan2), [Style GAN 2 in PyTorch](https://github.com/rosinality/stylegan2-pytorch)) to new domains without the need for annotated data. 
 
-Основная идея состоит в том, чтобы сохранить один экземпляр генератора постоянным, а другой обучить так, чтобы «направление» между сгенерированными изображениями в векторном пространстве совпадало с заданным текстовым направлением при помощи модели [CLIP](https://github.com/openai/CLIP).
+The core idea is to keep one generator instance fixed while training the other, ensuring that the 'direction' between generated images in the latent space aligns with a given text-guided direction using the [CLIP](https://github.com/openai/CLIP).
 
-После изучения статьи написан код для обучения и инференса такой модели. В итоге обученная модель умеет генерировать изображения из заданного текстовым промптом домена, например, в стиле аниме или скетч картинки, или превращать любого персонажа в Шрека. Дополнительно с помощью Streamlit сделан веб-сервис для использования такой модели.
+After studying the paper, we implemented the training and inference code for this model. The resulting trained model can generate images from text-specified domains - for example, in anime style or as sketch drawings, or even transform any character into Shrek.
 
 ## Getting Started
 **Prerequisites**
-  - [Installed CLIP](https://github.com/openai/CLIP)
-  - [Style GAN 2 in Pytorch)](https://github.com/rosinality/stylegan2-pytorch)
-  - [Weights for StyleGAN2-ffhq One-Shot Adaptation of GAN in Just One CLIP (pytorch)](https://huggingface.co/akhaliq/OneshotCLIP-stylegan2-ffhq/resolve/main/stylegan2-ffhq-config-f.pt)
- 
+ - python 3 with installed libs: os, torch, torchvision, PIL, numpy, matplotlib, re, tqdm, argparse, IPython
+ - in jupiter notebook will be installed libs: Ninja, ftfy, regex, tqdm
+ - [Installed CLIP](https://github.com/openai/CLIP) (downloads by jupiter notebook automatically).
+ - [Style GAN 2 (in Pytorch)](https://github.com/rosinality/stylegan2-pytorch) (downloads by jupiter notebook automatically).
+ - [Weights for StyleGAN2-ffhq One-Shot Adaptation of GAN in Just One CLIP (pytorch)](https://huggingface.co/akhaliq/OneshotCLIP-stylegan2-ffhq/resolve/main/stylegan2-ffhq-config-f.pt) (downloads by jupiter notebook automatically).
+
 ## Usage
 
 At the moment there is only one possible option to run the work [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DCwbuYemn5Yc-3_5RQ7U3vpd3SbbDI78?usp=sharing)
