@@ -1,1 +1,4 @@
+Model weights (saved checkpoints):
+https://drive.google.com/drive/folders/1a27Qx_Te2DQ95gjUhUEUW6K6VmFvcc4F?usp=sharing
 
+[Model weights (saved checkpoints)](https://drive.google.com/drive/folders/1a27Qx_Te2DQ95gjUhUEUW6K6VmFvcc4F?usp=sharing)
