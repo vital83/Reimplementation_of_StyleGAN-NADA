@@ -4,6 +4,8 @@ import torch.nn.functional as F
 import re
 from model import Generator
 
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
 
 # Image tools
 def clip_preprocess_tensor(imgs):
