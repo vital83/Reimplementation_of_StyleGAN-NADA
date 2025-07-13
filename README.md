@@ -24,9 +24,6 @@ After studying the paper, we implemented the training and inference code for thi
 
 ## Usage
 
-At the moment there is only one possible option to run the work [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DCwbuYemn5Yc-3_5RQ7U3vpd3SbbDI78?usp=sharing)
-
-
 Open in Colab and run:
  - train colab jupiter notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1r2MRBtmxpUGJfJ0lzH9BCreUeRFCKLwD?usp=sharing)
  - validation colab jupiter notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TJONxEAv0nLkggNEgIgrbHKzRXsKm2cp?usp=sharing)
