@@ -1,3 +1,7 @@
+import clip
+import torch
+from model import Generator
+
 # Image tools
 def clip_preprocess_tensor(imgs):
     imgs = (imgs.clamp(-1,1) + 1)/2
