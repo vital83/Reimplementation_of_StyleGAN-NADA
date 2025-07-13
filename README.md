@@ -15,15 +15,23 @@ After studying the paper, we implemented the training and inference code for thi
 
 ## Getting Started
 **Prerequisites**
- - python 3 with installed libs: os, torch, torchvision, PIL, numpy, matplotlib, re, tqdm, argparse, IPython
- - in jupiter notebook will be installed libs: Ninja, ftfy, regex, tqdm
+ - python 3.11 with installed libs: os, torch, torchvision, numpy, matplotlib, re
+ - in jupiter notebook will be installed (requred modules): Ninja, ftfy, regex, tqdm
  - [Installed CLIP](https://github.com/openai/CLIP) (downloads by jupiter notebook automatically).
  - [Style GAN 2 (in Pytorch)](https://github.com/rosinality/stylegan2-pytorch) (downloads by jupiter notebook automatically).
  - [Weights for StyleGAN2-ffhq One-Shot Adaptation of GAN in Just One CLIP (pytorch)](https://huggingface.co/akhaliq/OneshotCLIP-stylegan2-ffhq/resolve/main/stylegan2-ffhq-config-f.pt) (downloads by jupiter notebook automatically).
+ - [tools.py](https://raw.githubusercontent.com/vital83/Reimplementation_of_StyleGAN-NADA/main/tools.py) (downloads by jupiter notebook automatically).
 
 ## Usage
 
 At the moment there is only one possible option to run the work [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DCwbuYemn5Yc-3_5RQ7U3vpd3SbbDI78?usp=sharing)
+
+
+Open in Colab and run:
+ - train colab jupiter notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1r2MRBtmxpUGJfJ0lzH9BCreUeRFCKLwD?usp=sharing)
+ - validation colab jupiter notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TJONxEAv0nLkggNEgIgrbHKzRXsKm2cp?usp=sharing)
+
+
 You can just click `Runtime > Run all`, no other actions required.
 
 ## Result examples
