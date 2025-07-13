@@ -1,4 +1,3 @@
-import clip
 import torch
 from model import Generator
 
@@ -11,15 +10,6 @@ def clip_preprocess_tensor(imgs):
     imgs_224 = (imgs_224 - clip_mean) / clip_std
 
     return imgs_224
-
-# Text tools
-def get_text_features(source_text, target_text):
-    """Получение текстовых эмбеддингов для исходного и целевого доменов"""
-    text_inputs = clip.tokenize([source_text, target_text]).to(device)
-    with torch.no_grad():
-        text_features = clip_model.encode_text(text_inputs)
-        text_features /= text_features.norm(dim=-1, keepdim=True)
-    return text_features
 
 # Tools
 def directional_loss(img_features, text_features):
