@@ -1,5 +1,6 @@
 import torch
 from model import Generator
+import torch.nn.functional as F
 
 # Image tools
 def clip_preprocess_tensor(imgs):
